@@ -29,3 +29,44 @@ header {
     font-size: 5rem;
     font-weight: 400;
 }
+/* flex box */
+.flex{
+    display: flex;
+    /* using flxbox */
+}
+/* flex disrection */
+.flex-col{
+    flex-direction: column;
+}
+/* align items */
+.align-center{
+    align-items: center;
+}
+
+/* width */
+.w-80{
+    width: 80%;
+}
+.w-500{
+    width: 500px;
+}
+/* text align center*/
+.text-center{
+    text-align: center;
+}
+/* font color */
+.text-red{
+    color: red;
+}
+/* font size */
+.font-medium{
+    font-size: 3rem;
+}
+.font-small{
+    font-size:1.5rem ;
+}
+
+/* font bold */
+.font-bold{
+    font-weight: bold;
+}
