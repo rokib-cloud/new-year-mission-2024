@@ -119,19 +119,13 @@ hr{
 .justify-center {
     justify-content: center;
 }
-
+/* justify space between */
+.space-bwtween{
+    justify-content: space-between;
+}
 /* align items */
 .align-center {
     align-items: center;
-}
-.bg-gray{
-    background-color: azure;
-}
-.input-radius{
-    border-radius: 0px 50px 50px 0px;
-}
-.input-radius-1{
-    border-radius: 50px 0px 0px 50px;
 }
 /* flex gap */
 .gap {
@@ -157,7 +151,13 @@ hr{
     background-color: #FF0000;
 }
 .bg-red-100{
-    background-color:  #e7cfcf;
+    background-color:  #fbf1f1;
+}
+.bg-footer{
+    background-color: #070211;
+}
+.bg-gray{
+    background-color: azure;
 }
 /* padding */
 .p-5 {
@@ -195,7 +195,13 @@ hr{
 .round {
     border-radius: 5px solid #FF0000;
 }
-
+/* input radius */
+.input-radius{
+    border-radius: 0px 50px 50px 0px;
+}
+.input-radius-1{
+    border-radius: 50px 0px 0px 50px;
+}
 /* .round-full{
     border-radius: ;
 } */
