@@ -23,7 +23,9 @@ a {
     padding-bottom: 70px;
     margin: 20px;
 }
-
+hr{
+    width: 80%;
+}
 #sub-title {
     font-size: 2.5rem;
     font-weight: 500;
@@ -45,6 +47,59 @@ a {
     background-image: linear-gradient(to right, rgba(177, 152, 152, 0), rgb(237, 187, 187));
 }
 
+.round-img {
+    border: 8px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* surprise */
+.container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.top-right {
+    position: absolute;
+    width: 429px;
+    height: 420px;
+    top: 30px;
+    right: 20px;
+}
+
+.bottom {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 60px;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 0;
+}
+
+.middle-right {
+    position: absolute;
+    top: 90px;
+    right: 285px;
+}
+
+/* .middle-right >img{
+    border: 3px solid white;
+    border-radius: 50%;
+} */
+
+/* portfolio */
+.grid-portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+/* subscribe */
+
 /* flex box */
 .flex {
     display: flex;
@@ -61,9 +116,26 @@ a {
     justify-content: space-around;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 /* align items */
 .align-center {
     align-items: center;
+}
+.bg-gray{
+    background-color: azure;
+}
+.input-radius{
+    border-radius: 0px 50px 50px 0px;
+}
+.input-radius-1{
+    border-radius: 50px 0px 0px 50px;
+}
+/* flex gap */
+.gap {
+    gap: 15px;
 }
 
 /* width */
@@ -84,32 +156,54 @@ a {
 .bg-red {
     background-color: #FF0000;
 }
-
+.bg-red-100{
+    background-color:  #e7cfcf;
+}
 /* padding */
 .p-5 {
     padding: 15px;
 }
-.p-50{
+
+.p-50 {
     padding: 50px;
 }
-.px-2{
+
+.px-2 {
     padding-inline: 20px;
 }
+.px-3{
+    padding-inline: 90px;
+}
+.pl {
+    padding-left: 20px;
+}
+
 /* margin */
 .mt-5 {
     margin-top: 50px;
 }
+
+.mt-10 {
+    margin-top: 180px;
+}
+
 /* border radius */
-.round-1{
+.round-1 {
     border-radius: 10px;
 }
-.round{
-    border-radius: 5px;
+
+.round {
+    border-radius: 5px solid #FF0000;
 }
+
+/* .round-full{
+    border-radius: ;
+} */
 /* border */
-.border-0{
+.border-0 {
     border: 0;
 }
+
 /* transparent backgroung */
 .transparent {
     background: transparent;
@@ -125,15 +219,22 @@ a {
 }
 
 /* font size */
+.font-md {
+    font-size: 2.2rem;
+}
+
 .font-medium {
     font-size: 3rem;
 }
-.font-abnormal{
+
+.font-abnormal {
     font-size: 1.5rem;
 }
-.font-normal{
+
+.font-normal {
     font-size: 1rem;
 }
+
 .font-xl {
     font-size: 4.2rem;
 }
