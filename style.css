@@ -10,8 +10,7 @@ header {
     background-size: cover;
     text-align: center;
     color: white;
-    padding: 30px;
-    overflow: hidden;
+    padding: 30px;    
 }
 
 a {
@@ -25,6 +24,7 @@ a {
 }
 hr{
     width: 80%;
+    color: gray;
 }
 #sub-title {
     font-size: 2.5rem;
@@ -33,7 +33,7 @@ hr{
 
 #title-1 {
     font-size: 5rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .mid-night {
@@ -94,7 +94,7 @@ hr{
 /* portfolio */
 .grid-portfolio{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: auto auto auto;
     gap: 15px;
 }
 
@@ -222,6 +222,9 @@ hr{
 
 .text-white {
     color: white;
+}
+.text-gray{
+    color: rgb(130, 127, 127);
 }
 
 /* font size */
